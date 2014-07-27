@@ -1,0 +1,38 @@
+name = Verde ECOS
+description = Please provide a description for your theme.
+base theme = om_verde_chile
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/verde-ecos.normalize.css
+stylesheets[all][] = css/verde-ecos.hacks.css
+stylesheets[all][] = css/verde-ecos.styles.css
+stylesheets[all][] = css/verde-ecos.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/verde-ecos.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Marca
+regions[principal] = Barra Superior
+regions[header] = Encabezado
+regions[navigation] = Barra de Navegación
+regions[highlighted] = Destacados
+regions[help] = Ayuda
+regions[slider] = Slider
+regions[content] = Contenido
+regions[sidebar_media] = Lateral para Media
+regions[sidebar_left] = Lateral Izquierda
+regions[sidebar_right] = Lateral Derecha
+regions[pre_footer_1] = Pre Footer-1
+regions[pre_footer_2] = Pre Footer-2
+regions[pre_footer_3] = Pre Footer-3
+regions[footer] = Footer
